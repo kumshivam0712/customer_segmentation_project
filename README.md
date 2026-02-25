@@ -91,23 +91,57 @@ Instead of treating all customers the same, it automatically groups them into me
 | ![](figures/top_states.png) | ![](figures/recency_distribution.png) |
 
 ---
+---
 
 ## 🛠️ Tech Stack
 
-- **Python 3.11**
-- **Pandas**
-- **NumPy**
-- **Matplotlib**
-- **Seaborn**
-- **RFM Analysis Methodology**
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="150">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60"/><br>
+<b>Python 3.11</b>
+</td>
+
+<td align="center" width="150">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="60"/><br>
+<b>Pandas</b>
+</td>
+
+<td align="center" width="150">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="60"/><br>
+<b>NumPy</b>
+</td>
+
+<td align="center" width="150">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="60"/><br>
+<b>Matplotlib</b>
+</td>
+
+<td align="center" width="150">
+<img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="60"/><br>
+<b>Seaborn</b>
+</td>
+
+<td align="center" width="150">
+📊<br>
+<b>RFM Analysis</b>
+</td>
+
+</tr>
+</table>
+
+</div>
 
 ---
 
 ## 📁 Project Structure
 
 ```bash
-📦 customer_segmentation_project
-├── 📂 python/
+customer_segmentation_project/
+│
+├── python/
 │   ├── 01_data_exploration.py
 │   ├── 02_data_preparation.py
 │   ├── 03_customer_metrics.py
@@ -115,7 +149,7 @@ Instead of treating all customers the same, it automatically groups them into me
 │   ├── 05_visualizations.py
 │   └── 06_final_report.py
 │
-├── 📂 figures/
+├── figures/
 │   ├── segment_distribution_pie.png
 │   ├── revenue_by_segment.png
 │   ├── avg_spend_by_segment.png
@@ -125,54 +159,54 @@ Instead of treating all customers the same, it automatically groups them into me
 │   ├── state_composition.png
 │   └── value_distribution.png
 │
-└── 📂 reports/
+└── reports/
     ├── customer_segmentation_report.html
     ├── segment_summary.csv
     └── executive_summary.txt
 💡 Business Recommendations
 🏆 Champions
-VIP loyalty program
+✅ VIP loyalty program
 
-Early access to products
+✅ Early access to products
 
-Personalized thank-you notes
+✅ Personalized thank-you notes
 
-Referral bonuses
+✅ Referral bonuses
 
-📈 Expected: +20% spending
+📈 Expected Impact: +20% spending
 
 ⚠️ At-Risk Customers
-"We miss you" campaign
+✅ "We miss you" campaign
 
-25–30% reactivation discount
+✅ 25–30% reactivation discount
 
-Feedback survey
+✅ Feedback survey
 
-Personalized product showcase
+✅ Personalized product showcase
 
-📈 Expected: Recover 25% revenue
+📈 Expected Impact: Recover 25% revenue
 
 🆕 New Customers
-3-email welcome series
+✅ 3-email welcome series
 
-15% off second purchase
+✅ 15% off second purchase
 
-Product education
+✅ Product education
 
-Easy reorder
+✅ Easy reorder
 
-📈 Expected: 30% higher repeat rate
+📈 Expected Impact: 30% higher repeat rate
 
 💝 Loyal Customers
-Points-based rewards
+✅ Points-based rewards
 
-Cross-selling
+✅ Cross-selling
 
-Birthday discounts
+✅ Birthday discounts
 
-Early sale access
+✅ Early sale access
 
-📈 Expected: 15% more frequent orders
+📈 Expected Impact: 15% more frequent orders
 
 ⚙️ How to Run
 1️⃣ Clone Repository
@@ -181,8 +215,9 @@ cd customer_segmentation_project
 2️⃣ Install Dependencies
 pip install pandas numpy matplotlib seaborn
 3️⃣ Download Dataset
-Download dataset from Kaggle and place CSV files inside data/ folder.
+Download dataset from Kaggle and place CSV files inside:
 
+data/
 4️⃣ Run Scripts
 cd python
 python 01_data_exploration.py
