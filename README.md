@@ -150,7 +150,6 @@ This project performs **customer segmentation** on **100,000+ e-commerce orders*
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </div>
 
-markdown
 ## 📁 Project Structure
 📦 customer_segmentation_project
 ├── 📂 python/
