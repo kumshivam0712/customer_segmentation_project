@@ -150,91 +150,74 @@ This project performs **customer segmentation** on **100,000+ e-commerce orders*
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </div>
 
-## 📁 Project Structure
+📁 Project Structure
+text
 📦 customer_segmentation_project
-├── 📂 python
-│ ├── 📄 01_data_exploration.py # Explore raw data
-│ ├── 📄 02_data_preparation.py # Clean & merge
-│ ├── 📄 03_customer_metrics.py # Calculate RFM
-│ ├── 📄 04_rfm_segmentation.py # Create segments
-│ ├── 📄 05_visualizations.py # Generate charts
-│ └── 📄 06_final_report.py # Create reports
-├── 📂 figures # 8 generated charts
-│ ├── 🖼️ segment_distribution_pie.png
-│ ├── 🖼️ revenue_by_segment.png
-│ ├── 🖼️ avg_spend_by_segment.png
-│ ├── 🖼️ rfm_heatmap.png
-│ ├── 🖼️ top_states.png
-│ ├── 🖼️ recency_distribution.png
-│ ├── 🖼️ state_composition.png
-│ └── 🖼️ value_distribution.png
-└── 📂 reports # Final outputs
-├── 📄 customer_segmentation_report.html
-├── 📄 segment_summary.csv
-└── 📄 executive_summary.txt
+├── 📂 python/
+│   ├── 📄 01_data_exploration.py     # Explore raw data
+│   ├── 📄 02_data_preparation.py      # Clean & merge datasets
+│   ├── 📄 03_customer_metrics.py      # Calculate RFM scores
+│   ├── 📄 04_rfm_segmentation.py      # Create customer segments
+│   ├── 📄 05_visualizations.py        # Generate all charts
+│   └── 📄 06_final_report.py          # Create HTML reports
+│
+├── 📂 figures/                         # 8 generated charts
+│   ├── 🖼️ segment_distribution_pie.png
+│   ├── 🖼️ revenue_by_segment.png
+│   ├── 🖼️ avg_spend_by_segment.png
+│   ├── 🖼️ rfm_heatmap.png
+│   ├── 🖼️ top_states.png
+│   ├── 🖼️ recency_distribution.png
+│   ├── 🖼️ state_composition.png
+│   └── 🖼️ value_distribution.png
+│
+└── 📂 reports/                          # Final outputs
+    ├── 📄 customer_segmentation_report.html
+    ├── 📄 segment_summary.csv
+    └── 📄 executive_summary.txt
 
-text
-
-<br>
-
+💡 Business Recommendations
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
-
-## 💡 Business Recommendations
-
-<div align="center">
-
-### 🏆 **For Champions** (Best Customers)
-┌─────────────────────────────────────────────────────┐
-│ ✓ VIP loyalty program with exclusive perks │
-│ ✓ Early access to new products │
-│ ✓ Personalized thank-you notes │
-│ ✓ Referral program with bonuses │
-│ └─ Expected: +20% spending │
-└─────────────────────────────────────────────────────┘
-
+🏆 For Champions (Best Customers)
 text
-
-### ⚠️ **For At-Risk** (Customers Leaving)
 ┌─────────────────────────────────────────────────────┐
-│ ✓ "We miss you" email campaign │
-│ ✓ 25-30% reactivation discount │
-│ ✓ Feedback survey │
-│ ✓ Showcase new products in their favorites │
-│ └─ Expected: Recover 25% of at-risk revenue │
+│  ✓ VIP loyalty program with exclusive perks         │
+│  ✓ Early access to new products                     │
+│  ✓ Personalized thank-you notes                     │
+│  ✓ Referral program with bonuses                    │
+│                                                     │
+│  └─ 📈 Expected: +20% increase in spending          │
 └─────────────────────────────────────────────────────┘
-
+⚠️ For At-Risk (Customers Leaving)
 text
-
-### 🆕 **For New Customers**
 ┌─────────────────────────────────────────────────────┐
-│ ✓ 3-email welcome series │
-│ ✓ 15% off second purchase │
-│ ✓ Product tips and guides │
-│ ✓ Easy reorder options │
-│ └─ Expected: 30% higher second purchase rate │
+│  ✓ "We miss you" email campaign                     │
+│  ✓ 25-30% reactivation discount                     │
+│  ✓ Feedback survey to understand why they left      │
+│  ✓ Showcase new products in their favorite categories│
+│                                                     │
+│  └─ 📈 Expected: Recover 25% of at-risk revenue     │
 └─────────────────────────────────────────────────────┘
-
+🆕 For New Customers
 text
-
-### 💝 **For Loyal Customers**
 ┌─────────────────────────────────────────────────────┐
-│ ✓ Points-based loyalty program │
-│ ✓ Related product recommendations │
-│ ✓ Birthday/anniversary discounts │
-│ ✓ Early access to sales │
-│ └─ Expected: 15% more frequent orders │
+│  ✓ 3-email welcome series                           │
+│  ✓ 15% off second purchase                          │
+│  ✓ Product tips and guides                          │
+│  ✓ Easy reorder options                             │
+│                                                     │
+│  └─ 📈 Expected: 30% higher second purchase rate    │
 └─────────────────────────────────────────────────────┘
-
+💝 For Loyal Customers
 text
-
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+┌─────────────────────────────────────────────────────┐
+│  ✓ Points-based loyalty program                     │
+│  ✓ Related product recommendations                  │
+│  ✓ Birthday/anniversary discounts                   │
+│  ✓ Early access to sales                            │
+│                                                     │
+│  └─ 📈 Expected: 15% more frequent orders           │
+└─────────────────────────────────────────────────────┘
 </div>
 
 ## ⚙️ How to Run
