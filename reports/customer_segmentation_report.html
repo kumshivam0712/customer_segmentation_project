@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Segmentation Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        .summary-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .metric {
+            display: inline-block;
+            width: 200px;
+            padding: 20px;
+            margin: 10px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .metric-value {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .metric-label {
+            font-size: 14px;
+        }
+        .segment-card {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 4px solid #27ae60;
+        }
+        .segment-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #27ae60;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Customer Segmentation Analysis Report</h1>
+        <p>Generated on: 2026-02-25 10:02:45</p>
+        
+        <div class="summary-box">
+            <h2>Executive Summary</h2>
+            <p>This report presents a comprehensive customer segmentation analysis based on RFM (Recency, Frequency, Monetary) metrics. The analysis covers <strong>93,358</strong> customers with total revenue of <strong>R$13,813,963.68</strong>.</p>
+        </div>
+        
+        <h2>📈 Key Metrics</h2>
+        <div style="text-align: center;">
+            <div class="metric">
+                <div class="metric-value">93,358</div>
+                <div class="metric-label">Total Customers</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value">R$13,813,964</div>
+                <div class="metric-label">Total Revenue</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value">R$148</div>
+                <div class="metric-label">Avg Customer Value</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value">3.0%</div>
+                <div class="metric-label">Repeat Customer Rate</div>
+            </div>
+        </div>
+        
+        <h2>🎯 Segment Distribution</h2>
+        <table>
+            <tr>
+                <th>Segment</th>
+                <th>Customers</th>
+                <th>% of Total</th>
+                <th>Total Revenue</th>
+                <th>% of Revenue</th>
+                <th>Avg Spend</th>
+                <th>Avg Orders</th>
+            </tr>
+
+            <tr>
+                <td><strong>At Risk</strong></td>
+                <td>20,959</td>
+                <td>22.5%</td>
+                <td>R$2,782,807.93</td>
+                <td>20.1%</td>
+                <td>R$132.77</td>
+                <td>1.0</td>
+            </tr>
+    
+            <tr>
+                <td><strong>At Risk - High Value</strong></td>
+                <td>2,817</td>
+                <td>3.0%</td>
+                <td>R$827,833.74</td>
+                <td>6.0%</td>
+                <td>R$293.87</td>
+                <td>1.0</td>
+            </tr>
+    
+            <tr>
+                <td><strong>Champions</strong></td>
+                <td>6,429</td>
+                <td>6.9%</td>
+                <td>R$1,854,987.40</td>
+                <td>13.4%</td>
+                <td>R$288.53</td>
+                <td>1.2</td>
+            </tr>
+    
+            <tr>
+                <td><strong>Hibernating</strong></td>
+                <td>7,458</td>
+                <td>8.0%</td>
+                <td>R$194,277.36</td>
+                <td>1.4%</td>
+                <td>R$26.05</td>
+                <td>1.0</td>
+            </tr>
+    
+            <tr>
+                <td><strong>Loyal Customers</strong></td>
+                <td>9,176</td>
+                <td>9.8%</td>
+                <td>R$2,622,968.51</td>
+                <td>19.0%</td>
+                <td>R$285.85</td>
+                <td>1.1</td>
+            </tr>
+    
+            <tr>
+                <td><strong>Need Attention</strong></td>
+                <td>3,711</td>
+                <td>4.0%</td>
+                <td>R$578,169.77</td>
+                <td>4.2%</td>
+                <td>R$155.80</td>
+                <td>1.0</td>
+            </tr>
+    
+            <tr>
+                <td><strong>New Customers</strong></td>
+                <td>6,067</td>
+                <td>6.5%</td>
+                <td>R$246,914.67</td>
+                <td>1.8%</td>
+                <td>R$40.70</td>
+                <td>1.0</td>
+            </tr>
+    
+            <tr>
+                <td><strong>Other</strong></td>
+                <td>11,804</td>
+                <td>12.6%</td>
+                <td>R$1,184,929.89</td>
+                <td>8.6%</td>
+                <td>R$100.38</td>
+                <td>1.0</td>
+            </tr>
+    
+            <tr>
+                <td><strong>Potential Loyalists</strong></td>
+                <td>16,380</td>
+                <td>17.5%</td>
+                <td>R$3,182,536.75</td>
+                <td>23.0%</td>
+                <td>R$194.29</td>
+                <td>1.0</td>
+            </tr>
+    
+            <tr>
+                <td><strong>Promising</strong></td>
+                <td>8,557</td>
+                <td>9.2%</td>
+                <td>R$338,537.66</td>
+                <td>2.5%</td>
+                <td>R$39.56</td>
+                <td>1.0</td>
+            </tr>
+    
+        </table>
+        
+        <h2>📊 Visual Analysis</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+            <div>
+                <h3>Segment Distribution</h3>
+                <img src="../figures/segment_distribution_pie.png" alt="Segment Distribution">
+            </div>
+            <div>
+                <h3>Average Spend by Segment</h3>
+                <img src="../figures/avg_spend_by_segment.png" alt="Average Spend">
+            </div>
+            <div>
+                <h3>Revenue Contribution</h3>
+                <img src="../figures/revenue_by_segment.png" alt="Revenue Contribution">
+            </div>
+            <div>
+                <h3>RFM Heatmap</h3>
+                <img src="../figures/rfm_heatmap.png" alt="RFM Heatmap">
+            </div>
+        </div>
+        
+        <h2>💡 Segment Descriptions & Recommendations</h2>
+
+        <div class="segment-card">
+            <div class="segment-name">Champions</div>
+            <p><strong>Description:</strong> Your best customers who buy frequently, spend the most, and purchased recently.</p>
+            <p><strong>Recommendation:</strong> VIP treatment, exclusive offers, early access to new products, referral programs.</p>
+        </div>
+        
+        <div class="segment-card">
+            <div class="segment-name">Loyal Customers</div>
+            <p><strong>Description:</strong> Regular customers with high frequency and good spending habits.</p>
+            <p><strong>Recommendation:</strong> Loyalty programs, cross-selling, personalized recommendations.</p>
+        </div>
+        
+        <div class="segment-card">
+            <div class="segment-name">Potential Loyalists</div>
+            <p><strong>Description:</strong> Recent customers with good spending who show promise.</p>
+            <p><strong>Recommendation:</strong> Engagement emails, second purchase incentives, product recommendations.</p>
+        </div>
+        
+        <div class="segment-card">
+            <div class="segment-name">New Customers</div>
+            <p><strong>Description:</strong> First-time or very recent buyers with low frequency.</p>
+            <p><strong>Recommendation:</strong> Welcome series, educational content, easy reorder options.</p>
+        </div>
+        
+        <div class="segment-card">
+            <div class="segment-name">Promising</div>
+            <p><strong>Description:</strong> Recent buyers with average metrics who could become loyal.</p>
+            <p><strong>Recommendation:</strong> Nurture campaigns, targeted offers based on first purchase.</p>
+        </div>
+        
+        <div class="segment-card">
+            <div class="segment-name">Need Attention</div>
+            <p><strong>Description:</strong> Average customers who need a little push to become better.</p>
+            <p><strong>Recommendation:</strong> Re-engagement emails, special discounts, feedback requests.</p>
+        </div>
+        
+        <div class="segment-card">
+            <div class="segment-name">At Risk - High Value</div>
+            <p><strong>Description:</strong> Previously high-value customers who haven't bought recently.</p>
+            <p><strong>Recommendation:</strong> Urgent reactivation campaigns, special "we miss you" offers.</p>
+        </div>
+        
+        <div class="segment-card">
+            <div class="segment-name">At Risk</div>
+            <p><strong>Description:</strong> Customers showing signs of disengagement.</p>
+            <p><strong>Recommendation:</strong> Win-back campaigns, satisfaction surveys, limited-time offers.</p>
+        </div>
+        
+        <div class="segment-card">
+            <div class="segment-name">Hibernating</div>
+            <p><strong>Description:</strong> Long-time no purchase, low engagement.</p>
+            <p><strong>Recommendation:</strong> Last-chance reactivation, big discount offers.</p>
+        </div>
+        
+        <div class="segment-card">
+            <div class="segment-name">Other</div>
+            <p><strong>Description:</strong> Customers who don't fit neatly into other categories.</p>
+            <p><strong>Recommendation:</strong> Monitor behavior, analyze for patterns.</p>
+        </div>
+        
+        <h2>📍 Geographic Insights</h2>
+<table><tr><th>State</th><th>Customers</th><th>%</th><th>Top Segment</th></tr><tr><td>SP</td><td>39,150</td><td>41.9%</td><td>At Risk</td></tr><tr><td>RJ</td><td>11,913</td><td>12.8%</td><td>At Risk</td></tr><tr><td>MG</td><td>10,996</td><td>11.8%</td><td>At Risk</td></tr><tr><td>RS</td><td>5,167</td><td>5.5%</td><td>At Risk</td></tr><tr><td>PR</td><td>4,768</td><td>5.1%</td><td>At Risk</td></tr></table>
+        <h2>📋 Action Plan</h2>
+        <table>
+            <tr>
+                <th>Priority</th>
+                <th>Action</th>
+                <th>Target Segment</th>
+                <th>Expected Impact</th>
+            </tr>
+            <tr>
+                <td>High</td>
+                <td>Launch VIP program with exclusive perks</td>
+                <td>Champions</td>
+                <td>Increase retention, get referrals</td>
+            </tr>
+            <tr>
+                <td>High</td>
+                <td>Urgent reactivation campaign</td>
+                <td>At Risk - High Value</td>
+                <td>Recover 20% of at-risk revenue</td>
+            </tr>
+            <tr>
+                <td>Medium</td>
+                <td>Welcome series optimization</td>
+                <td>New Customers</td>
+                <td>Improve second purchase rate</td>
+            </tr>
+            <tr>
+                <td>Medium</td>
+                <td>Loyalty program enhancements</td>
+                <td>Loyal Customers</td>
+                <td>Increase order frequency</td>
+            </tr>
+            <tr>
+                <td>Low</td>
+                <td>Last-chance win-back campaign</td>
+                <td>Hibernating/Lost</td>
+                <td>Recover some lost customers</td>
+            </tr>
+        </table>
+        
+        <h2>📊 Success Metrics to Track</h2>
+        <ul>
+            <li><strong>Segment Migration:</strong> Track how customers move between segments over time</li>
+            <li><strong>Reactivation Rate:</strong> % of at-risk customers who return to purchase</li>
+            <li><strong>Average Order Value by Segment:</strong> Monitor changes in spending patterns</li>
+            <li><strong>Customer Lifetime Value:</strong> Calculate CLV for each segment</li>
+            <li><strong>Retention Rate:</strong> % of customers who continue purchasing</li>
+        </ul>
+        
+        <div class="footer">
+            <p>This report was automatically generated as part of the Customer Segmentation Project.</p>
+            <p>Data source: Brazilian E-Commerce Public Dataset by Olist</p>
+        </div>
+    </div>
+</body>
+</html>

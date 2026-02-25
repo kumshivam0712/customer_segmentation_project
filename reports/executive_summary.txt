@@ -1,0 +1,56 @@
+
+============================================
+CUSTOMER SEGMENTATION ANALYSIS - EXECUTIVE SUMMARY
+============================================
+
+Report Date: 2026-02-25 10:02:46
+
+OVERVIEW
+--------------------------------------------
+Total Customers Analyzed: 93,358
+Total Revenue: R$13,813,963.68
+Average Customer Value: R$147.97
+Repeat Customer Rate: 3.0%
+
+KEY FINDINGS
+--------------------------------------------
+1. Top 3 Segments by Revenue:
+   • Potential Loyalists: R$3,182,536.75 (23.0%)
+   • At Risk: R$2,782,807.93 (20.1%)
+   • Loyal Customers: R$2,622,968.51 (19.0%)
+
+2. At-Risk Customers:
+   • Total at-risk customers: 31,234
+   • Revenue at risk: R$3,804,919.03
+
+3. Geographic Concentration:
+   • Top state: SP (39,150 customers)
+   • Top 5 states account for 77.1% of customers
+
+RECOMMENDATIONS
+--------------------------------------------
+1. Immediate Actions (Next 30 days):
+   - Launch VIP program for Champions
+   - Reactivation campaign for At-Risk High Value
+   - Optimize welcome series for New Customers
+
+2. Short-term Initiatives (60-90 days):
+   - Implement segment-based email marketing
+   - Create loyalty program structure
+   - A/B test offers for different segments
+
+3. Long-term Strategy (6+ months):
+   - Build predictive churn model
+   - Implement personalized recommendations
+   - Develop segment-based inventory planning
+
+NEXT STEPS
+--------------------------------------------
+1. Review segment definitions with marketing team
+2. Set up tracking for segment migration
+3. Plan first reactivation campaign
+4. Schedule monthly segment analysis review
+
+============================================
+Report generated automatically by Customer Segmentation Project
+============================================
